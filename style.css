@@ -25,7 +25,7 @@
 .navigation{
     position: absolute;
     right: 30px;
-    top: 20px;
+    top: 15px;
 }
 
 .section{
@@ -81,7 +81,9 @@
     width: 100%;
     padding: 5px;
 }
-
+.mic-option{
+    cursor: pointer;
+}
 .search > input{
     border: none;
     width: 100%;
@@ -91,10 +93,6 @@
 .search > input:focus{
     outline: none;
 }
-.navigation{
-
-}
-
 .footer-section{
     background-color: var(--light-gray);
     border-top: 1px solid #e4e4e4;
@@ -129,7 +127,6 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
 .link{
     color: var(--dark-gray);
 }
@@ -139,6 +136,22 @@ a:hover{
     font-size: 13px;
     margin-left: 15px;
 }
+#sign-in-link{
+    font-weight: bold;
+    outline: none;
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    color: #fff;
+}
+#sign-in-link:hover{
+    text-decoration: none;
+    box-shadow: 0 1px 2px 0 rgba(30, 30, 30, 0.3);
+}
+
 .link-btn{
     font-size: 14px;
     margin: 10px 5px;
